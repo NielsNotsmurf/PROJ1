@@ -95,10 +95,11 @@ public class Main {
                     6) Is student geslaagd voor test?
                     7) Welke examens heeft student gehaald?
                     8) Welke student heeft de meeste examens gehaald?
+                    9) Wat is gemiddeld cijfer van student?
                     0) Exit
                     Uw keuze:""";
             int menuInput = 11;
-            while (menuInput > 8 || menuInput < 0) {
+            while (menuInput > 9 || menuInput < 0) {
                 try {
                     System.out.println(menu);
                     menuInput = scanner.nextInt();
